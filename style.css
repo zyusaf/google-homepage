@@ -48,3 +48,39 @@ table {
 }
 /* Above is Eric Meyer's css reset code */
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px 0 20px;
+    overflow: hidden;
+    }
+
+li {
+    display: inline;
+}
+
+li a {
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;    
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+#Sign-In {
+    color: white;
+    text-align: center;
+    margin-right: 15px;
+    padding: 11px 25px;
+    text-decoration: none;  
+    float: right;
+    background-color: rgb(57, 149, 235);
+    border-radius: 50%;
+}
+
+[type="text"] {
+    border-radius: 10px;
+}
