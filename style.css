@@ -48,37 +48,47 @@ table {
 }
 /* Above is Eric Meyer's css reset code */
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #222
+}
+
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 20px 0 20px;
+    padding: 10px 0 10px;
     overflow: hidden;
     }
 
 li {
-    display: inline;
+    float: left;
 }
 
 li a {
-    color: black;
+    display: block;
+    color: rgba(0, 0, 0, 0.87);
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 16px;
     text-decoration: none;    
+}
+
+.top-right-side {
+    float: right;
 }
 
 li a:hover {
     text-decoration: underline;
 }
 
-#Sign-In {
+#sign-in {
     color: white;
     text-align: center;
     margin-right: 15px;
-    padding: 11px 25px;
-    text-decoration: none;  
+    padding: 10px 25px;
     float: right;
-    background-color: rgb(57, 149, 235);
-    border-radius: 50%;
+    background-color: rgb(26, 115, 232);
+    border-radius: 4px;
 }
 
 [type="text"] {
