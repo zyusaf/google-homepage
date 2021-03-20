@@ -51,21 +51,21 @@ table {
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
-    color: #222
+    text-decoration-color: #222
 }
 
-ul {
+.top-bar {
     list-style-type: none;
     margin: 0;
     padding: 10px 0 10px;
     overflow: hidden;
     }
 
-li {
+.top-left-side {
     float: left;
 }
 
-li a {
+.top-item {
     display: block;
     color: rgba(0, 0, 0, 0.87);
     text-align: center;
@@ -93,4 +93,45 @@ li a:hover {
 
 [type="text"] {
     border-radius: 10px;
+}
+
+[type="submit"] {
+    border-radius: 0;
+}
+
+.united-kingdom {
+    background-color: rgba(148, 148, 148, 0.25);
+    padding: 15px 0px 15px 30px;
+    color: grey;
+    border-bottom: 1px solid rgba(117, 117, 117, 0.2);
+}
+
+.bottom-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0 10px 15px;
+    overflow: hidden;
+    background-color: rgba(148, 148, 148, 0.25);
+    padding-right: 20px;
+}
+
+.bottom-left-side {
+    float: left;
+}
+
+.bottom-item {
+    display: block;
+    color: gray;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;   
+}
+
+.bottom-right-side {
+    float: right;
+}
+
+#carbon {
+    padding: 10px 180px 10px 180px;
+    text-align: center;
 }
