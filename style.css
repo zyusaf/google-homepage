@@ -51,7 +51,7 @@ table {
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
-    text-decoration-color: #222
+    text-decoration-color: #222;
 }
 
 .top-bar {
@@ -97,6 +97,42 @@ li a:hover {
 
 [type="submit"] {
     border-radius: 0;
+}
+
+/* main {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+} */
+
+.google-top {
+    display: flex;
+    flex-direction: column;
+}
+
+.white-box {
+    align-self: center;
+    height: 200px;
+    width: 100%;
+}
+
+.google-box {
+    align-self: center;
+    flex-shrink: 1;
+}
+
+.google-logo {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.search-bar {
+        
+}
+
+.search {
+    padding: 20px;
+    display: block;
 }
 
 .united-kingdom {
