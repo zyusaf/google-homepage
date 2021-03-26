@@ -91,14 +91,6 @@ li a:hover {
     border-radius: 4px;
 }
 
-[type="text"] {
-    border-radius: 10px;
-}
-
-[type="submit"] {
-    border-radius: 0;
-}
-
 /* main {
     display: flex;
     flex-direction: column;
@@ -114,6 +106,7 @@ li a:hover {
     align-self: center;
     height: 200px;
     width: 100%;
+    flex-grow: 0;
 }
 
 .google-box {
@@ -127,12 +120,47 @@ li a:hover {
 }
 
 .search-bar {
-        
+    display: flex;        
 }
 
-.search {
-    padding: 20px;
-    display: block;
+.form-logo-search svg {
+    height: 20px;
+    width: 20px;
+    fill: ;
+}
+
+input {
+    width: 50%;
+    margin: auto;
+    height: 34px;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 20px;
+    border-width: 1px;
+    border-color: rgba(117, 117, 117, 0.2);    
+}
+
+.button-flexbox {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin: 0px 5px;
+    padding: 10px 16px;
+    font-size: 14px;
+    border: 1px solid #f8f9fa;
+    background-color: #f8f9fa;
+}
+
+.white-under-google {
+    display: flex;
+}
+
+.bottom-white-box {
+    height: 338px;
+    flex-grow: 1;
 }
 
 .united-kingdom {
